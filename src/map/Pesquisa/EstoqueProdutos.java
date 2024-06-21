@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class EstoqueProdutos {
-    Map<Long,Produto> mapDeProdutos;
+    private Map<Long,Produto> mapDeProdutos;
     public EstoqueProdutos(){
         this.mapDeProdutos = new HashMap<>();
     }
